@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reporte anual" version="4">
+  <OBJECT>
+    <ID name="reporte anual" mc="Standard.Package" uid="bc7c91f2-ed29-4347-b4ea-948443360276"/>
+    <PID name="Reporte Anual" mc="Standard.Project" uid="bd8eb3ba-de77-459f-a70c-eb24feba435a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reporte anual]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="RegistrarMateriasImpartidas" mc="Standard.Interaction" uid="0960b3ab-4bc1-47c6-9641-0c952df86cc5"/>
+        <COMPID name="RegistrarAlumnosTutorados" mc="Standard.Interaction" uid="cd1ba32a-a5e0-4eff-9e64-4d076e1b8996"/>
+        <COMPID name="RegistrarProyectosInvestigación" mc="Standard.Interaction" uid="88a8c275-86f3-4530-8c11-b6bb50aff641"/>
+        <COMPID name="Ver historial de reportes" mc="Standard.Interaction" uid="2dd7fb36-8497-447e-b31d-6d7f31920234"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Actor" uid="fbb13022-139c-448a-9229-4c824f1e1ce2"/>
+        <COMPID name="Registrar materias impartidas" mc="Standard.UseCase" uid="2d52019a-4a72-425b-9632-58469fc3c010"/>
+        <COMPID name="Class" mc="Standard.Class" uid="434160c5-4ba9-43a3-a505-24457d7e7fbf"/>
+        <COMPID name="Registrar tutorados" mc="Standard.UseCase" uid="f66386be-8b05-46f5-a93b-d097fe0be0bf"/>
+        <COMPID name="Registrar proyectos de investigación" mc="Standard.UseCase" uid="9a0619f3-0cd4-4697-8979-ccc65ff023b5"/>
+        <COMPID name="Ver historial de reportes" mc="Standard.UseCase" uid="49cd4d12-7e79-4690-b8ac-d9c4591e0ab0"/>
+        <COMPID name="Vicerectoría" mc="Standard.Actor" uid="e29061ee-4b76-4986-85d9-702c7b3a2819"/>
+        <COMPID name="Ver reportes" mc="Standard.UseCase" uid="92107293-10cb-4e96-9d65-b8c6ff43da63"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="reporte anual Use Case diagram" mc="Standard.UseCaseDiagram" uid="a4ebf9e4-e47c-4a07-b7a4-26f9678f9e03"/>
+        <COMPID name="reporte anual Class diagram" mc="Standard.ClassDiagram" uid="0a65ec0b-1560-4941-8c5e-52df8386dfca"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

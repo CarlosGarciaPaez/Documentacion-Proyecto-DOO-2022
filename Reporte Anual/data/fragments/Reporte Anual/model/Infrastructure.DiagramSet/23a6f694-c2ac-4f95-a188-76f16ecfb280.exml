@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reporte Anual" version="4">
+  <OBJECT>
+    <ID name="Reporte Anual" mc="Infrastructure.DiagramSet" uid="23a6f694-c2ac-4f95-a188-76f16ecfb280"/>
+    <PID name="Reporte Anual" mc="Standard.Project" uid="bd8eb3ba-de77-459f-a70c-eb24feba435a"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Reporte Anual]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
